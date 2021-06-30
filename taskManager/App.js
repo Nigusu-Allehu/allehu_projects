@@ -1,14 +1,48 @@
-import React from 'react';
-import { TouchableOpacity, Platform, TextInput, StyleSheet, Text, View,KeyboardAvoidingView } from 'react-native';
+import React,{useState} from 'react';
+import { TouchableOpacity, Platform, TextInput, StyleSheet, Text, View,KeyboardAvoidingView, Button } from 'react-native';
 import Task from './components/task';
 import theme from './styles/theme.styles.js';
+import DateTimePickerModal from "react-native-modal-datetime-picker";
+
+
 
 export default function App() {
+  const [dateVisible, setVisibility] = useState(false);
+  const [date_value, setDate]= useState(new Date());
+  const [month, setMonth]=useState(date_value.getMonth());
+  const [year, setYear]=useState(date_value.getFullYear());
+  const [day, setDay]=useState(date_value.getDate());
+  const showDatePicker= ()=>{
+    setVisibility(true);
+  }
+  const hideDatePicker= ()=>{
+    setVisibility(false)
+  }
+  const  handleConfirm = (date)=>{
+    setDate(date);
+    setMonth(date_value.getMonth());
+    setYear(date_value.getFullYear());
+    setDay(date_value.getDate());
+    hideDatePicker();
+  }
+  const get_date_string =()=>{
+    return ""+day+"-"+month+"-"+year
+  }
   return (
     <View style={styles.container}>
       <View style={styles.title}>
             <Text style={styles.title_text}> Tasks</Text>
-            <Text style={styles.date}>6/24/2021</Text>
+            <TouchableOpacity onPress={showDatePicker} >
+                <View style={styles.dateWrapper}>
+                    <Text style={styles.dateText}>{""+day+"-"+month+"-"+year}</Text>
+                </View>
+            </TouchableOpacity>
+            <DateTimePickerModal
+            isVisible={dateVisible}
+            mode="date"
+            onConfirm={handleConfirm}
+            onCancel={hideDatePicker}
+            />
       </View>
       <View style={styles.tasks}>
             <Task color={theme.PRIMARY_COLOR} text={'TASK1'}/>
@@ -101,4 +135,6 @@ addButton:{
   fontWeight:'900',
   color:'white'
 },
+dateWrapper:{},
+dateText:{},
 });
