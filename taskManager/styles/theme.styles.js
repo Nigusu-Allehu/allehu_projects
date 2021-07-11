@@ -6,7 +6,7 @@ export default{
   TITLE_FONT:'Roboto',
   TITLE_FONT_SIZE:36,
   FONT_COLOR:'#000000',
-  DATE_FONT_SIZE:14,
+  DATE_FONT_SIZE:12,
   TASK_FONT_SIZE:13
 
 };
