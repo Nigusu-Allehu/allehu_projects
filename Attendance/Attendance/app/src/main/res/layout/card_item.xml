@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp"
+		android:background="@drawable/back"
+		android:layout_margin="15dp">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Absents on :"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:textColor="#FFFFFF"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:id="@+id/day"
+				android:singleLine="true"
+				android:textColor="#FFFFFF"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="No Absent Students"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_marginTop="10dp"
+			android:id="@+id/abs_students"
+			android:maxHeight="65dp"
+			android:textColor="#FFFFFF"
+			android:layout_marginBottom="10dp"
+			android:textStyle="italic"
+			android:textSize="17sp"/>
+
+		<View
+			android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="#FFFFFF"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

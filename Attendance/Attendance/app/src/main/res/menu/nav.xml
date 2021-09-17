@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+        android:id="@+id/mec"
+        android:title="Meckup Class"
+		android:icon="@drawable/ic_calendar"/>
+
+    <item
+        android:id="@+id/students"
+        android:title="Students"
+		android:icon="@drawable/ic_students"/>
+
+	<item
+        android:id="@+id/add_student"
+        android:title="Add Student"
+		android:icon="@drawable/ic_student_plus"/>
+
+	<item
+        android:id="@+id/goto_days"
+        android:title="Goto Days"
+		android:icon="@drawable/ic_calendar"/>
+
+	<item
+        android:id="@+id/profile"
+        android:title="Profile"
+		android:icon="@drawable/ic_profile"/>
+
+	<item 
+		android:id="@+id/program"
+		android:title="Program"
+		android:icon="@drawable/ic_calendar_text" />
+
+	<item 
+		android:id="@+id/red"
+		android:title="RedL List"
+		android:icon="@drawable/ic_launcher" />
+
+	<item android:title="More">
+		<menu>
+			<item 
+				android:id="@+id/setting"
+				android:title="Settings"
+				android:icon="@drawable/ic_settings" />
+
+			<item 
+				android:id="@+id/help"
+				android:title="Help"
+				android:icon="@drawable/ic_help" />
+
+			<item 
+				android:id="@+id/about"
+				android:title="About"
+				android:icon="@drawable/ic_information" />
+
+			<item 
+				android:id="@+id/exit"
+				android:title="Exit"
+				android:icon="@drawable/ic_exit_to_app" />
+
+		</menu>
+	</item>
+
+</menu>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:id="@+id/mainCoordinatorLayout">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<include
+			layout="@layout/toolbar"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="You must the write following forms.Please fill forms first"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"/>
+
+		<ScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<android.support.design.widget.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/sch_name_input">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:hint="School Name"
+						android:id="@+id/sch_name"
+						android:inputType="text"/>
+
+				</android.support.design.widget.TextInputLayout>
+
+				<android.support.design.widget.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/tch_name_input">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:hint="Teacher Name(your name)"
+						android:id="@+id/tch_name"
+						android:inputType="text"/>
+
+				</android.support.design.widget.TextInputLayout>
+
+				<android.support.design.widget.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/tch_sec_input">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:hint="Teacher Class and Section(your class and section)"
+						android:id="@+id/tch_sec"
+						android:inputType="text"/>
+
+				</android.support.design.widget.TextInputLayout>
+
+				<android.support.design.widget.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/ad_name_input">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:hint="Adminstrator Name"
+						android:id="@+id/ad_name"
+						android:inputType="text"/>
+
+				</android.support.design.widget.TextInputLayout>
+
+				<android.support.design.widget.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/ad_phone_input">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:hint="Adminstrator phone number"
+						android:id="@+id/ad_phone"
+						android:inputType="number"/>
+
+				</android.support.design.widget.TextInputLayout>
+
+				<android.support.design.widget.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/year_input">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:hint="Year"
+						android:id="@+id/year"
+						android:inputType="number"/>
+
+				</android.support.design.widget.TextInputLayout>
+
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Save"
+					android:layout_gravity="right"
+					android:layout_margin="10dp"
+					android:onClick="save"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:id="@+id/mainCoordinatorLayout">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<include
+			layout="@layout/toolbar"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="please don't use symbols for student name"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_margin="10dp"
+			android:singleLine="true"/>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/std_name_input">
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="Student Name"
+				android:id="@+id/std_name"
+				android:inputType="text"/>
+
+		</android.support.design.widget.TextInputLayout>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/std_age_input">
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="Parent's phone Number"
+				android:id="@+id/std_age"
+				android:inputType="numberDecimal"/>
+
+		</android.support.design.widget.TextInputLayout>
+
+		<Spinner
+			android:layout_height="40dp"
+			android:layout_width="wrap_content"
+			android:id="@+id/std_sex"
+			android:entries="@array/sex"
+			android:layout_marginRight="10dp"
+			android:layout_gravity="right"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Add"
+			android:layout_gravity="right"
+			android:layout_margin="10dp"
+			android:onClick="add_std"/>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

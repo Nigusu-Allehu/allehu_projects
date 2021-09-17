@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:id="@+id/mainCoordinatorLayout">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<include layout="@layout/toolbar" />
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="This your class on the following days"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"/>
+
+		<HorizontalScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent">
+
+				<ScrollView
+					android:layout_height="match_parent"
+					android:layout_width="match_parent">
+
+					<LinearLayout
+						android:layout_height="match_parent"
+						android:layout_width="match_parent"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_height="match_parent"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_weight="5.0"
+							android:layout_margin="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text=""/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="1"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="2"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="3"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="4"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="5"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="6"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="7"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="8"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="9"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="match_parent"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_weight="5.0"
+							android:layout_margin="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="Monday"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m1"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m2"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m3"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m4"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m5"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m6"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m7"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m8"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/m9"/>
+
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="match_parent"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_weight="5.0"
+							android:layout_margin="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="Thuesday"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t1"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t2"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t3"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t4"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t5"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t6"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t7"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t8"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/t9"/>
+
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="match_parent"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_weight="5.0"
+							android:layout_margin="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="Wednesday"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w1"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w2"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w3"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w4"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w5"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w6"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w7"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w8"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/w9"/>
+
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="match_parent"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_weight="5.0"
+							android:layout_margin="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="Thursday"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th1"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th2"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th3"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th4"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th5"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th6"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th7"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th8"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/th9"/>
+
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="match_parent"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_weight="5.0"
+							android:layout_margin="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:text="Friday"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f1"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f2"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f3"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f4"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f5"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f6"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f6"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f8"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:layout_width="wrap_content"
+								android:id="@+id/f9"/>
+
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</ScrollView>
+
+			</LinearLayout>
+
+		</HorizontalScrollView>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

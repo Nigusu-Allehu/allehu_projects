@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+        android:id="@+id/meckup_days"
+        android:title="Goto Meckup Days"
+		android:icon="@drawable/ic_calendar"
+		app:showAsAction="ifRoom"/>
+
+	<item
+        android:id="@+id/cancel_meckup"
+        android:title="Cancel Meckup Attendance"
+		android:icon="@drawable/ic_cancel"
+		app:showAsAction="ifRoom"/>
+	
+</menu>

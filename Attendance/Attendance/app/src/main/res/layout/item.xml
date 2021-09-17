@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/stud_color"
+	android:background="#FFFFFF">
+
+	<LinearLayout
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<com.gnn.attendance.ProfileView
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_centerInParent="true"
+			android:src="@drawable/sample"
+			app:civ_border_width="0dp"
+			app:civ_border_color="#ffffff"
+			android:layout_margin="7dp"
+			android:id="@+id/student_image"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:gravity="center_vertical"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Error Unknown Student"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:layout_margin="10dp"
+				android:id="@+id/student_name"
+				android:textColor="#333333"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:textColor="#000000"
+			android:gravity="center"
+			android:padding="10dp"
+			android:textSize="25sp"
+			android:id="@+id/std_no"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="64dp"
+		android:layout_marginRight="15dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/drawer_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.design.widget.CoordinatorLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:id="@+id/mainCoordinatorLayout">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<include layout="@layout/toolbar" />
+
+			<ListView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:dividerHeight="0dp"
+				android:divider="#ffffff"
+				android:id="@+id/cardListView"/>
+
+		</LinearLayout>
+
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/fab"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end|bottom"
+			android:layout_margin="20dp"
+			app:borderWidth="2dp"
+			app:backgroundTint="#FF8700"
+			app:fabSize="normal"
+			app:rippleColor="#AB6200"/>
+
+	</android.support.design.widget.CoordinatorLayout>
+
+	<android.support.design.widget.NavigationView
+		android:id="@+id/navigation"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"/>
+
+</android.support.v4.widget.DrawerLayout>
+

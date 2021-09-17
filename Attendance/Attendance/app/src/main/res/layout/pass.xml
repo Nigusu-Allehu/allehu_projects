@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:layout_margin="4dp"
+		android:id="@+id/pass1"
+		android:hint="Input Password"
+		android:inputType="number"
+		android:textColor="#838383"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:layout_margin="4dp"
+		android:id="@+id/pass2"
+		android:hint="Confirm Password"
+		android:inputType="number"
+		android:textColor="#838383"/>
+
+</LinearLayout>
+
