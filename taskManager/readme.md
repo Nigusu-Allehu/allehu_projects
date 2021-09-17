@@ -7,20 +7,22 @@ or a user could delete a task by long pressing on it. The app is designed to be 
 
 ## Home page
 the app's home page looks like this. Simple.
-![](task_SS/home.png)
+<img src='task_SS/home.png' width= "100"/>
 
 ## Load the calender by clicking on the date on the top right cornor
 
-![](task_SS/calender.png)
+
+<img src='task_SS/calender.png' width= "100"/>
 
 ## typing a task
 
-![](task_SS/type_task.png)
+<img src='task_SS/type_task.png' width= "100"/>
 
 # A List of tasks
 
-![](task_SS/tasks.png)
+
+<img src='task_SS/tasks.png' width= "100"/>
 
 # Marking a task complete by clicking on them
 
-![](task_SS/complete_task.png)
+<img src='task_SS/complete_task.png' width= "100"/>
